@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body div {
+    background-color: lightgreen;
+}
+
+.bigtext {
+  font-size: 20rem;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+    .no-mobile {
+      display: none;
+    }
+}
+</style>
+</head>
+<body>
+
+<div>
+
+<p class="no-mobile bigtext"> I AM BIG AND TAKE LOTS OF SPACE </p>
+
+<p>Resize the browser window. When the width of this document is less than 500 pixels, the background-color is "lightblue", otherwise it is "lightgreen".</p>
+
+<div>
+
+</body>
+</html>
+
